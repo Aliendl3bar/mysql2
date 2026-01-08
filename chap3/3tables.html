@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Data</title>
+</head>
+<body>
+    <h1>SELECT a.title, u.name
+FROM Article a
+inner JOIN user u ON a.iduser = u.iduser
+INNER JOIN comment c ON a.idarticle = c.idarticle;</h1>
+<table border=1>
+<tr>
+<td bgcolor=silver class='medium'>title</td>
+<td bgcolor=silver class='medium'>name</td>
+<td bgcolor=silver class='medium'>content</td>
+</tr>
+
+<tr>
+<td class='normal' valign='top'>article1</td>
+<td class='normal' valign='top'>amine</td>
+<td class='normal' valign='top'>111111111111111111111</td>
+</tr>
+
+<tr>
+<td class='normal' valign='top'>article2</td>
+<td class='normal' valign='top'>israa</td>
+<td class='normal' valign='top'>22222222222</td>
+</tr>
+
+<tr>
+<td class='normal' valign='top'>article2</td>
+<td class='normal' valign='top'>israa</td>
+<td class='normal' valign='top'>333333333333333</td>
+</tr>
+</table>
+</body></html>
